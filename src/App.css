@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,400&display=swap');
+
+
+.contInput {
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.sectInput {
+  background-color: rgba(199, 195, 195, 0.316);
+  border-top: solid 2px rgba(25, 107, 179, 0.364);
+  padding: 20px 25px;
+  width: 700px;
+  box-shadow: 0px 2px 3px rgb(0, 0, 0, 0.3);
+}
+
+.buttonInput {
+  background: rgb(54, 72, 173);
+  color: white;
+  font-size: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid rgb(27, 26, 28);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.spanInput {
+  font-size: 35px;
+  margin-top: 12px;
+  display: inline-block;
+  color: black;
+}
+
+.results {
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
